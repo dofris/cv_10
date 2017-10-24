@@ -1,0 +1,179 @@
+
+    
+
+html
+{
+     
+}
+
+body
+{
+/*    background-color: whitesmoke;; */
+ background-image: url("bkg2.jpg");
+  background-repeat: no-repeat	; 
+  background-size: 100%;
+}
+
+h1, h2, h3
+{
+	color : #34495e;
+    font-family: 'Cinzel'; 'Olondona'; 'Arial';
+    text-decoration: underline;
+}
+header
+{
+    margin: 8px;
+    color: darkslategray;
+    
+    padding-left: 6px;
+}
+
+
+main 
+{
+    margin: 15px;
+    color: darkslategray;
+    padding-left: 0px;
+    
+}
+
+.CareerBlock
+{
+        width: 60%;
+        height: 100%;
+        text-align: justify;
+        align-items: left;
+        float:left;
+        display: inline-block;
+}
+.SkillsBlock
+{
+        width: 32%;
+        height: 100%;
+        align-items: right;
+        float:right;
+        display:inline-block;
+}
+footer
+{
+        margin: 10px;
+        color: darkslategray;
+        text-align: center;
+        padding-left: 8px;
+        clear:both;
+}
+
+@font-face
+{
+        font-family: 'Olondona.otf';
+        src: url("FontAwesome.otf");
+}
+
+progress
+{
+    background-color: firebrick;
+}
+
+a
+{
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover
+{
+    color: firebrick;
+}
+@media only screen and (max-width: 1024px) and (min-width:480px)
+    
+{
+        html
+            {
+                border: none;
+            }
+        header
+    {
+        padding-left: 10px;
+        margin: 14px;
+        font-size: 28px
+    }
+        .CareerBlock, .SkillsBlock
+            {
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: block;
+                align-items: left;
+                font-size: 100%;
+                width: 100%;
+                padding-left: 0px;
+                float: none;
+                height: auto;
+                text-align: left;
+                padding-left: 10px;
+                margin: 14px;
+                font-size: 26px
+                
+            }
+        footer
+            {
+                margin: 0px;
+                text-align: left;
+                padding-left: 0px;
+                clear:both;
+/*                 padding-left: 10px; */
+/*                 margin: 14px; */
+                font-size: 10px
+            }
+        ul, ol
+    {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+      html
+            {
+                border: none;
+            }
+        .CareerBlock, .SkillsBlock
+            {
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: block;
+                align-items: left;
+                width: 100%;
+                padding-right: 0px;
+                float: none;
+                height: auto;
+                text-align: left;
+            }
+img, object, canvas, video, audio, iframe
+    {
+        max-width: 100%;
+        height: auto;
+
+    }
+        footer
+            {
+                margin: 20px;
+                text-align: center;
+                align-items: center;
+                clear:both;
+                
+            }
+    
+    ul, ol
+    {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px)   
+{
+    main, .CareerBlock, .SkillsBlock, footer, header
+    {
+        padding-left: 12px;
+        margin: 16px;
+        font-size: 30px
+    }
+}

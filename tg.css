@@ -31,11 +31,14 @@ header
 
 main 
 {
-    margin: 15px;
+    margin: 10px;
     color: darkslategray;
     padding-left: 0px;
     
 }
+ .mon-style2 {
+ line-height: 0.2em;
+ }
 
 .CareerBlock
 {

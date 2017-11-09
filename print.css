@@ -1,0 +1,46 @@
+body {
+	margin : 0px;
+	padding : 0px;
+}
+
+.container {
+	margin : 10px;
+	padding : -10px;
+	
+	
+}
+h1{
+	
+	text-align: center;
+	margin-left: 10px;
+}
+h1, h2, h3{
+	font-size: 130%;
+	
+	
+}
+#div8{
+	
+	text-align: center;
+}
+
+#div9{
+	margin : 0.5; 
+	text-align: left;
+}
+#div13, #div14, #div15, #div16{
+	text align :left;
+}
+@page {
+	align-content: center;
+}
+section{
+	margin-left : 10%;
+	width: 150%
+
+	}
+	.container{
+	width: 100%;
+	
+	}
+	
